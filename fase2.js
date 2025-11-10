@@ -7,7 +7,7 @@ import { Guerrero } from "./especiales/guerrero.js";
 import { Consejero } from "./especiales/consejero.js";
 import { Rey } from "./especiales/rey.js";
 
-console.log("===== FASE 2: SANGRE Y ACERO =====");
+console.log("FASE 2: SANGRE Y ACERO");
 
 // Crear armas
 let garra = new Arma("Garra", 40, "espada");
@@ -50,5 +50,5 @@ jon.entrenar();
 tyrion.aconsejar();
 jaime.gobernar();
 
-console.log("===== FIN DE LA FASE 2 =====");
+
 
