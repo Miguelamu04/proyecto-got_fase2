@@ -3,9 +3,9 @@ import { Arma } from "./arma.js";
 import { Casa } from "./casa.js";
 import { Reino } from "./reino.js";
 
-import { Guerrero } from "./personajesEspeciales/guerrero.js";
-import { Consejero } from "./personajesEspeciales/consejero.js";
-import { Rey } from "./personajesEspeciales/rey.js";
+import { Guerrero } from "./especiales/guerrero.js";
+import { Consejero } from "./especiales/consejero.js";
+import { Rey } from "./especiales/rey.js";
 
 console.log("===== FASE 2: SANGRE Y ACERO =====");
 
@@ -51,3 +51,4 @@ tyrion.aconsejar();
 jaime.gobernar();
 
 console.log("===== FIN DE LA FASE 2 =====");
+
